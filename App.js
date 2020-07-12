@@ -45,7 +45,7 @@ export default class App extends Component<Props> {
 
   render() {
     return (
-      <ImageBackground source={this.state.torchStatus ? require('./assets/torchon.png') : require('./assets/torchoff.png')} style={{width: '100%', height: '100%' }} >
+      <ImageBackground source={this.state.torchStatus ? require('./assets/torchon.webp') : require('./assets/torchoff.webp')} style={{width: '100%', height: '100%' }} >
       <View style={styles.container}>
 
         <Button onPress={this.torchSwitch} style={{width: '100', height: '100', fontSize: 50}} title={this.state.torchStatus ? "Turn OFF" : "Turn ON"} />
