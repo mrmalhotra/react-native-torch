@@ -1,4 +1,4 @@
-package com.torch;
+package com.cct.torch;
 
 import com.facebook.react.ReactActivity;
 
